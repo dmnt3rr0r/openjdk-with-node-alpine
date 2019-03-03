@@ -1,5 +1,6 @@
 FROM openjdk:13-alpine
 
+# below from Dockerfile at git@github.com:mhart/alpine-node.git
 # install node / npm
 ENV VERSION=v11.10.1 NPM_VERSION=6 YARN_VERSION=latest
 
